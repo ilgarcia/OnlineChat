@@ -22,7 +22,7 @@ const loginFormSchema = yup.object().shape({
   password: yup.string().required("Por favor preencha o password."),
 });
 
-export default function Home() {
+export default function Page() {
   const {
     register,
     handleSubmit,
