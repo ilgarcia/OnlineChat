@@ -3,7 +3,6 @@
 import React, { MouseEventHandler, ReactNode } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { IconBaseProps } from "react-icons";
 
 interface ActiveLinkProps {
   children: ReactNode;

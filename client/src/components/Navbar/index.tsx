@@ -4,11 +4,11 @@ import { AiOutlineUser } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-  <aside className="w-56 h-screen">
-    <section className="flex justify-center items-center h-32 bg-theme-700 shadow-xl shadow-inner">
+  <aside className="sticky top-0 bottom-0 left-0 z-10 w-56 h-screen">
+    <section className="flex justify-center items-center h-1/4 bg-theme-700 shadow-xl shadow-inner">
       logo img
     </section>
-    <nav className="border-r">
+    <nav className="h-3/4 border-r">
       <ul>
         {/* <NavItem href={"/teste"} >teste</NavItem> */}
         <NavItem href={"/teste"} icon={<AiOutlineUser />}>teste</NavItem>
