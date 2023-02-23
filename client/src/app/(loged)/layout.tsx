@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 
 export default function RootLayout({
@@ -9,9 +10,14 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <section className="flex">
+        <section className="flex w-screen">
           <Navbar />
-          {children}
+          <section className="w-screen h-screen ml-56">
+            <Header />
+            <section className="min-h-[calc(100%_-_3rem)] pt-6 pl-6 bg-slate-100">
+              {children}
+            </section>
+          </section>
         </section>
       </body>
     </html>

@@ -22,7 +22,7 @@ export default function NavItem({
   const active = href === "/" ? pathname === href : pathname!.startsWith(href);
 
   return (
-    <li className={`${active && "text-theme-700"} `}>
+    <li className={`${active && "text-theme-700 font-semibold"} flex gap-4 items-center`}>
       {icon && icon}
       <Link href={href}>{children}</Link>
     </li>
