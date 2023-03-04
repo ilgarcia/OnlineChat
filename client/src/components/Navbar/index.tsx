@@ -10,11 +10,11 @@ export default function Navbar() {
       </section>
       <nav className="h-3/4 p-5 border-r">
         <ul className="flex flex-col gap-3">
-          <NavItem href={"/dashboard"} icon={<AiOutlineUser />}>
-            Dashboard
-          </NavItem>
           <NavItem href={"/conversas"} icon={<AiOutlineUser />}>
             Conversas
+          </NavItem>
+          <NavItem href={"/dashboard"} icon={<AiOutlineUser />}>
+            Dashboard
           </NavItem>
         </ul>
       </nav>

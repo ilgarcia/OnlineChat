@@ -14,7 +14,7 @@ export default function RootLayout({
           <Navbar />
           <section className="w-screen h-screen ml-56">
             <Header />
-            <section className="min-h-[calc(100%_-_3rem)] pt-6 pl-6 bg-slate-100">
+            <section className="min-h-[calc(100%_-_3rem)] bg-theme-100">
               {children}
             </section>
           </section>
